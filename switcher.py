@@ -2,6 +2,7 @@ def state(stateAbr):
 	switcher={
 		"AL":"ALABAMA",
 		"AK":"ALASKA",
+		"AS":"AMERICAN SAMOA",
 		"AZ":"ARIZONA",
 		"AR":"ARKANSAS",
 		"CA":"CALIFORNIA",
@@ -44,6 +45,7 @@ def state(stateAbr):
 		"TN":"TENNESSEE",
 		"TX":"TEXAS",
 		"UT":"UTAH",
+		"VI":"VIRGIN ISLANDS",
 		"VT":"VERMONT",
 		"VA":"VIRGINIA",
 		"WA":"WASHINGTON",
