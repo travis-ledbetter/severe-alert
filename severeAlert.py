@@ -68,5 +68,5 @@ for x in root.findall('{http://www.w3.org/2005/Atom}entry'):
 	
 	
 	if severity == "Severe":
-		print("There is a " + event + " in " + location + " " + state(stateAbr))
+		print "There is a " + event + " in " + location + " ", state(stateAbr)
 	
