@@ -21,6 +21,7 @@ def alert_pull():
 			print "There is a " + event + " in " + location + " ", state(stateAbr)
 			
 scheduler = BlockingScheduler()
+#Script is set to pull alerts every 10 minutes, that can be changed below
 scheduler.add_job(alert_pull,'interval',minutes=10)
 scheduler.start()
 	
